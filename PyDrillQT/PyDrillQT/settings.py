@@ -41,8 +41,8 @@ INSTALLED_APPS = (
     'djrill',
 )
 
-MANDRILL_API_KEY = '2roQUU-9dMZqtCl642cBag'
-EMAIL_BACKEND = "djrill.mail.backends.djrill.DjrillBackend"
+MANDRILL_API_KEY = 'Here put here your mandrill api_key'
+EMAIL_BACKEND = "djrill.mail.backends.djrill.DjrillBackend" #setting mandrill send mail service like a default service 
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': (
