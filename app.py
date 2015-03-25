@@ -19,8 +19,8 @@ class Window(QWidget):
         uiThread.start()
 
     def Auth(self):
-        username='alex'
-        password='admin'
+        username='here the username of your api django rest'
+        password='passwd of your api'
         base64string = base64.encodestring('%s:%s' % (username, password)).replace('\n', '')
         self.cabecera = {
                        #"Content-Type" : "application/json",
